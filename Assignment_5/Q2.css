@@ -1,0 +1,35 @@
+body{
+    background-color: aliceblue;
+    padding: 10%;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2%;
+    align-items:center
+
+}
+.card{
+    flex: 1;
+    min-width: fit-content;
+    max-width: 30vw;
+    min-height: 25vh;
+    max-height: 50vh;
+    border-radius: 5%;
+    padding: 20;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.card:hover{
+    gap: 20;
+    padding: 20;
+    min-height: 30vh;
+    min-width: 35vw;
+    background-color: #4CAF50;
+    color: white;
+    box-shadow: 10px 10px gray;
+}
+
