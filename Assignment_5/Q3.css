@@ -1,4 +1,10 @@
 main{
     display: grid;
-    grid-template-rows: repeat(3 ,20px [col-start]);
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 20px;
+}
+
+div{
+    height: 30vh;
+    width: 30vh;
 }
