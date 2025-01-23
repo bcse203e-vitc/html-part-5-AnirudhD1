@@ -1,0 +1,20 @@
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    border: none;
+}
+.gradient {
+    background: linear-gradient(to right, red, yellow);
+}
+.border {
+    border: 2px solid black;
+}
+.border:hover {
+    border-color: blue;
+}
+.glow {
+    box-shadow: 0 0 10px red;
+}
+

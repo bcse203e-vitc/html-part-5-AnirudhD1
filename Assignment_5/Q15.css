@@ -1,0 +1,17 @@
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4f4f4;
+}
+.gradient-header {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    background: linear-gradient(to right, red, purple);
+}

@@ -1,0 +1,12 @@
+
+@keyframes colorChange {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: green; }
+}
+h1 {
+    font-size: 24px;
+}
+.animated {
+    animation: colorChange 3s infinite;
+}

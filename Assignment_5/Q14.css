@@ -1,0 +1,38 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #eaeaea;
+}
+.timeline {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-left: 20px;
+}
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: black;
+}
+.event {
+    margin: 20px 0;
+    padding: 10px;
+    background: white;
+    border: 1px solid #ccc;
+}
+.event::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 50%;
+}

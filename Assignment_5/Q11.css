@@ -1,0 +1,23 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f9f9f9;
+}
+.box {
+    width: 150px;
+    height: 150px;
+    padding: 10%;
+    margin: 5%;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+.box:hover {
+    border-width: 10px;
+    border-color: red;
+}
